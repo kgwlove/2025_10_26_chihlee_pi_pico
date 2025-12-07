@@ -3,7 +3,7 @@ import time
 from umqtt.simple import MQTTClient
 
 # MQTT 設定
-MQTT_BROKER = "192.168.137.55"  # 公開測試用 Broker
+MQTT_BROKER = "192.168.137.55"  # 公開測試用 Broker #樹莓派的IP位址
 MQTT_PORT = 1883
 CLIENT_ID = "pico_w_publisher"
 TOPIC = "pico/test"
